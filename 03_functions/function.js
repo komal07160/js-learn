@@ -72,5 +72,26 @@ function myArrayFunction(secondvalue){
      return secondvalue[1]
 }
 
-console.log(myArrayFunction(myArray));
+// console.log(myArrayFunction(myArray));
+
+const object ={
+     name: "komal",
+     age: 20,
+   
+     welcomemessage: function(){
+          return ` hello welcome ${this.name}`
+     }
+
+}
+// console.log(object.welcomemessage());
+
+
+const fun1 = function(num1, num2){
+     return num1+num2;
+
+}
+console.log(fun1(10,20));
+const fun2 = (num1 , num2 ) => num1+num2
+
+console.log(fun2(10,20));
 
