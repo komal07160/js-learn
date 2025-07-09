@@ -90,8 +90,11 @@ const fun1 = function(num1, num2){
      return num1+num2;
 
 }
-console.log(fun1(10,20));
+// console.log(fun1(10,20));
 const fun2 = (num1 , num2 ) => num1+num2
 
-console.log(fun2(10,20));
+// console.log(fun2(10,20));
 
+const fun3 = () => ({object1:"komal"})
+
+// console.log(fun3());
